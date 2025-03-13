@@ -5,10 +5,10 @@ import { ReactiveFormsModule } from '@angular/forms';
 
 @Component({
   selector: 'app-register',
-  standalone: true, // ✅ اجعل المكون Standalone إذا كنت تستخدمه بدون Module
+  standalone: true, 
   templateUrl: './register.component.html',
   styleUrls: ['./register.component.css'],
-  imports: [CommonModule, ReactiveFormsModule] // ✅ استيراد CommonModule و ReactiveFormsModule
+  imports: [CommonModule, ReactiveFormsModule] 
 })
 export class RegisterComponent {
   registerForm: FormGroup;

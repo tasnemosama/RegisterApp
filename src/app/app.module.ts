@@ -6,12 +6,12 @@ import { ReactiveFormsModule } from '@angular/forms';
 import { RegisterComponent } from './register/register.component';
 
 @NgModule({
-  declarations: [AppComponent], // ✅ إزالة RegisterComponent من هنا لأنه Standalone
+  declarations: [AppComponent], 
   imports: [
     BrowserModule,
     AppRoutingModule,
     ReactiveFormsModule, 
-    RegisterComponent // ✅ إضافته هنا
+    RegisterComponent 
   ],
   providers: [],
   bootstrap: [AppComponent]
